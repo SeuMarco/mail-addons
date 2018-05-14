@@ -83,7 +83,7 @@ msgid "Move to origin"
 msgstr ""
 
 #. module: mail_move_message
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_move_message/static/src/xml/mail_move_message_main.xml:5
 #, python-format
 msgid "Move to thread"
@@ -136,7 +136,7 @@ msgid "Related Document Model (Original)"
 msgstr ""
 
 #. module: mail_move_message
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_move_message/static/src/js/mail_move_message.js:17
 #, python-format
 msgid "Relocate Message"

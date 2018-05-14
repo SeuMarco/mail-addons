@@ -24,21 +24,21 @@ msgid "Email composition wizard"
 msgstr "Componi Email"
 
 #. module: mail_private
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_private/static/src/xml/mail_private.xml:12
 #, python-format
 msgid "Followers of"
 msgstr ""
 
 #. module: mail_private
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_private/static/src/xml/mail_private.xml:16
 #, python-format
 msgid "Followers of this document"
 msgstr ""
 
 #. module: mail_private
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_private/static/src/xml/mail_private.xml:15
 #, python-format
 msgid "My Followers"
@@ -50,14 +50,14 @@ msgid "Send Internal Message"
 msgstr ""
 
 #. module: mail_private
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_private/static/src/xml/mail_private.xml:5
 #, python-format
 msgid "Send a message to specified recipients only"
 msgstr ""
 
 #. module: mail_private
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_private/static/src/xml/mail_private.xml:5
 #, python-format
 msgid "Send internal message"

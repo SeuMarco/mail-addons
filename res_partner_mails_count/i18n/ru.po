@@ -19,28 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:31
 #, python-format
 msgid "Close Tutorial"
 msgstr "Закройте инструкцию"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:25
 #, python-format
 msgid "Done"
 msgstr "Готово"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:20
 #, python-format
 msgid "Here is new fields with mails counters. Press one of it."
 msgstr "Здесь новые поля с счетчиками писем. Нажмите на один из них."
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:15
 #, python-format
 msgid "Let's see how mails count work."
@@ -52,14 +52,14 @@ msgid "Mails"
 msgstr "Письма"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:9
 #, python-format
 msgid "Mails count Tour"
 msgstr "Руководство по модулю \"Mails count\""
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:14
 #, python-format
 msgid "Mails count tutorial"
@@ -85,7 +85,7 @@ msgid "Mails to"
 msgstr "Исходящие"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:30
 #, python-format
 msgid ""
@@ -96,7 +96,7 @@ msgstr ""
 "projects.info/apps' target='_blank'>IT-Projects LLC</a> team "
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:19
 #, python-format
 msgid "New fields"
@@ -108,14 +108,14 @@ msgid "Partner"
 msgstr "Партнер"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:16
 #, python-format
 msgid "Skip"
 msgstr "Пропустить"
 
 #. module: res_partner_mails_count
-#. openerp-web
+#. odoo-web
 #: code:addons/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js:16
 #, python-format
 msgid "Start Tutorial"

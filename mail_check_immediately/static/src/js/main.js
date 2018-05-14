@@ -1,4 +1,4 @@
-openerp.mail_check_immediately = function(instance, local) {
+odoo.mail_check_immediately = function(instance, local) {
 
     instance.mail.Wall.include({
 

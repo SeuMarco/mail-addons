@@ -1,16 +1,15 @@
-# -*- coding: utf-8 -*-
 
 import base64
 import logging
 import re
 from email.utils import formataddr
 
-from openerp import tools
-from openerp import SUPERUSER_ID
-from openerp.addons.base.ir.ir_mail_server import MailDeliveryException
-from openerp.osv import osv
-from openerp.tools.safe_eval import safe_eval as eval
-from openerp.tools.translate import _
+from odoo import tools
+from odoo import SUPERUSER_ID
+from odoo.addons.base.ir.ir_mail_server import MailDeliveryException
+from odoo.osv import osv
+from odoo.tools.safe_eval import safe_eval as eval
+from odoo.tools.translate import _
 
 _logger = logging.getLogger(__name__)
 
@@ -137,7 +136,7 @@ class MailMail(osv.Model):
                     mail_sent = True
 
                 # /!\ can't use mail.state here, as mail.refresh() will cause an error
-                # see revid:odo@openerp.com-20120622152536-42b2s28lvdv3odyr in 6.1
+                # see revid:odo@odoo.com-20120622152536-42b2s28lvdv3odyr in 6.1
                 if mail_sent:
                     _logger.info('Mail with ID %r and Message-Id %r successfully sent', mail.id, mail.message_id)
                 self._postprocess_sent_message(cr, uid, mail, context=context, mail_sent=mail_sent)

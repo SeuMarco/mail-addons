@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
-from openerp import api
-from openerp import models
+from odoo import api
+from odoo import models
 
 
 class Partner(models.Model):

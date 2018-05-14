@@ -82,7 +82,7 @@ msgid "Create Partner"
 msgstr ""
 
 #. module: mail_move_message
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_move_message/static/src/js/mail_move_message.js:125
 #: model:ir.ui.view,arch_db:mail_move_message.view_wizard
 #, python-format
@@ -241,7 +241,7 @@ msgid "Move Message"
 msgstr ""
 
 #. module: mail_move_message
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_move_message/static/src/xml/mail_move_message_main.xml:6
 #, python-format
 msgid "Move to thread"
@@ -321,7 +321,7 @@ msgid "Related Document Model (Original)"
 msgstr ""
 
 #. module: mail_move_message
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_move_message/static/src/js/mail_move_message.js:27
 #, python-format
 msgid "Relocate Message"

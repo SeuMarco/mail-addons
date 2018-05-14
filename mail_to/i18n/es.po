@@ -19,21 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mail_to
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_to/static/src/xml/recipient.xml:6
 #, python-format
 msgid "To:"
 msgstr "Para:"
 
 #. module: mail_to
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_to/static/src/xml/recipient.xml:15
 #, python-format
 msgid "and"
 msgstr "y"
 
 #. module: mail_to
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_to/static/src/xml/recipient.xml:16
 #, python-format
 msgid "more"

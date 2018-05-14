@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-from openerp import api
-from openerp import fields
-from openerp import models
-from openerp.tools import email_split
-from openerp.tools.translate import _
+from odoo import api
+from odoo import fields
+from odoo import models
+from odoo.tools import email_split
+from odoo.tools.translate import _
 
 
 class Wizard(models.TransientModel):
@@ -130,7 +129,7 @@ class Wizard(models.TransientModel):
         if self.model and self.filter_by_partner and self.partner_id:
             fields = self.env[self.model].fields_get(False)
             contact_field = False
-            for n, f in fields.iteritems():
+            for n, f in fields.items():
                 if f['type'] == 'many2one' and f['relation'] == 'res.partner':
                     contact_field = n
                     break
@@ -239,7 +238,7 @@ class Wizard(models.TransientModel):
 
         fields = model.fields_get()
         contact_field = False
-        for n, f in fields.iteritems():
+        for n, f in fields.items():
             if f['type'] == 'many2one' and f['relation'] == 'res.partner':
                 contact_field = n
                 break

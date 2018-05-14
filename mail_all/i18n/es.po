@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mail_all
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_all/static/src/js/mail_all.js:49
 #: code:addons/mail_all/static/src/xml/menu.xml:7
 #, python-format
@@ -27,7 +27,7 @@ msgid "All messages"
 msgstr "Todos los mensajes"
 
 #. module: mail_all
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_all/static/src/xml/menu.xml:15
 #, python-format
 msgid "No messages"

@@ -29,14 +29,14 @@ msgid "Message"
 msgstr "Mensagem"
 
 #. module: mail_sent
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_sent/static/src/xml/menu.xml:15
 #, python-format
 msgid "No sent messages"
 msgstr ""
 
 #. module: mail_sent
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_sent/static/src/js/sent.js:61
 #: code:addons/mail_sent/static/src/xml/menu.xml:7
 #: model:ir.model.fields,field_description:mail_sent.field_mail_compose_message_sent
@@ -53,7 +53,7 @@ msgid "Was message sent to someone"
 msgstr "Foi enviada mensagem para alguém"
 
 #. module: mail_sent
-#. openerp-web
+#. odoo-web
 #: code:addons/mail_sent/static/src/xml/menu.xml:16
 #, python-format
 msgid "You can send messages and then these messages will appear here."

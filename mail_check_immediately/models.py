@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 import datetime
 
-from openerp.tools.translate import _
-from openerp import tools
+from odoo.tools.translate import _
+from odoo import tools
 
-from openerp import exceptions
-from openerp import models, fields, api
+from odoo import exceptions
+from odoo import models, fields, api
 
 
 class FetchMailServer(models.Model):
