@@ -5,6 +5,7 @@ from odoo.tools import email_split
 from odoo.tools.translate import _
 
 
+
 class Wizard(models.TransientModel):
     _name = 'mail_move_message.wizard'
 
