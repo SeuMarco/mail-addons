@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="mailgun_domain_verification" model="ir.cron">
             <field name="name">Mailgun - domain verification request</field>
@@ -12,4 +12,4 @@
             <field name="doall" eval="True" />
         </record>
     </data>
-</openerp>
+</odoo>
